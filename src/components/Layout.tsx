@@ -1,6 +1,5 @@
 
 import React from 'react'
-import Image from 'next/image'
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { ModeToggle } from "@/components/mode-toggle"
@@ -17,7 +16,7 @@ export default function Layout({ children }: LayoutProps) {
         <div className="flex items-center space-x-4">
           <div>
             <a href="/">
-              <Image
+              <img
                 className="block dark:hidden"
                 src="/logo.svg"
                 alt="imgsrc Logo"
@@ -27,7 +26,7 @@ export default function Layout({ children }: LayoutProps) {
             </a>
 
             <a href="/">
-              <Image
+              <img
                 className="hidden dark:block"
                 src="/logo_dark.svg"
                 alt="imgsrc Logo"

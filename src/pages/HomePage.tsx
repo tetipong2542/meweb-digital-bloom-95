@@ -1,6 +1,5 @@
 
 import React from 'react'
-import Link from "next/link"
 import { InfoCircledIcon } from "@radix-ui/react-icons"
 
 import { Button } from "@/components/ui/button"
